@@ -4,7 +4,7 @@ class CardComp extends Component{
     constructor(){
         super()
         this.state={
-            data:'Data is loding..'
+            data:'Data loding..'
     }
     }
     updateData=(event)=>{

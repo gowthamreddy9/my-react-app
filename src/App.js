@@ -13,11 +13,23 @@ import EventBinding from './component/EventBinding'
 import UserGreeting from './component/UserGreeting';
 import Inline from './component/Inline';
 import Stylesheet from './component/Stylesheet';
+import ClassComp from './component/ClassComp';
+import FunctionalComp from './component/FunctionalComp';
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+     
+<DataBinding/>
+<EventBinding/>
+<Inline/>
+
+<Stylesheet
+
+primary={true}
+/>
+<UserGreeting/>
+<div className="App">
         <nav className="nav navbar-dark bg-dark justify-content-between">
           <a href="/" className="navbar-brand">React Routing</a>
 
@@ -30,18 +42,12 @@ function App() {
         <Route exact path='/contact' element={< Contact />}></Route>
 
         </Routes>
-<DataBinding/>
-<EventBinding/>
-<Inline/>
-<Stylesheet
-
-primary={true}
-/>
-<UserGreeting/>
-
 
       </div>
+      <ClassComp />
+      <FunctionalComp/>
     </BrowserRouter>
+    
   );
 }
 
