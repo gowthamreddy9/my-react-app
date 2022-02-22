@@ -15,19 +15,18 @@ import Inline from './component/Inline';
 import Stylesheet from './component/Stylesheet';
 import ClassComp from './component/ClassComp';
 import FunctionalComp from './component/FunctionalComp';
+import RegisterForm from './component/RegisterForm'
+
+
 
 function App() {
   return (
     <BrowserRouter>
      
-<DataBinding/>
+{/* <DataBinding/>
 <EventBinding/>
 <Inline/>
-
-<Stylesheet
-
-primary={true}
-/>
+<Stylesheet primary={true}/>
 <UserGreeting/>
 <div className="App">
         <nav className="nav navbar-dark bg-dark justify-content-between">
@@ -43,9 +42,12 @@ primary={true}
 
         </Routes>
 
-      </div>
-      <ClassComp />
-      <FunctionalComp/>
+      </div> */}
+
+      {/* <ClassComp/>
+      <FunctionalComp/> */}
+     < RegisterForm/>
+
     </BrowserRouter>
     
   );
