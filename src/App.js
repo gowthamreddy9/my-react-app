@@ -16,6 +16,11 @@ import Stylesheet from './component/Stylesheet';
 import ClassComp from './component/ClassComp';
 import FunctionalComp from './component/FunctionalComp';
 import RegisterForm from './component/RegisterForm'
+import LoginForm from './component/DashBoard/LoginForm';
+import SiteHeader from './component/DashBoard/SiteHeader';
+import SiteFooter from './component/DashBoard/SiteFooter';
+import Dashboard from './component/Pages/Dashboard';
+import Axios from './component/Axios';
 
 
 
@@ -46,8 +51,11 @@ function App() {
 
       {/* <ClassComp/>
       <FunctionalComp/> */}
-     < RegisterForm/>
-
+     {/* < RegisterForm/> */}
+     
+     {/* <Dashboard/> */}
+    <Axios/>
+{/* <Dashboard/> */}
     </BrowserRouter>
     
   );
